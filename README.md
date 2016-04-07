@@ -3,6 +3,18 @@ ActiveScroll.js
 
 This jQuery plugin allows for Smooth Scrolling with Anchor Highlighting.
 
+ActiveScroll.js determines which targeted element is closer to the page scroll position and highlights that anchor.
+It provides a smooth scrolling feature with an onclick event attached to a customised data attribute.
+
+```js
+$('nav').activescroll({
+    scroll: "scroll",
+    active: "active",
+    offset: 20,
+    animate: 1000
+});
+```
+
 # Usage
 
 Make sure you have a **data attribute** that references the **id** of the element that the page will be scrolled to.
@@ -66,6 +78,15 @@ So if Introduction was determined to be the active Anchor:
 ```
 ### offset (default: 20)
 The offset setting determines the offset of the scrollTo position.
+```js
+$('nav').activescroll({
+    offset: 10
+});
+```
 ### animate (default: 1000)
 The animate setting determines the ms the scrollTo should take.
-
+```js
+$('nav').activescroll({
+    animate: 2000
+});
+```
