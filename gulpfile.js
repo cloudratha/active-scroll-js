@@ -11,3 +11,5 @@ gulp.task('compress', function() {
         .pipe(rename('active-scroll.min.js'))
         .pipe(gulp.dest( output ));
 });
+
+gulp.task('default', ['compress']);
