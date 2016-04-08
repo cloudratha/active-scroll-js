@@ -1,0 +1,26 @@
+{
+  "name": "active-scroll",
+  "description": "jQuery Plugin for smooth scrolling with anchor highlighting",
+  "main": "dist/active-scroll.min.js",
+  "authors": [
+    "Gareth Cozens (Cuzzy)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jQuery",
+    "scroll",
+    "anchor",
+    "highlight"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.4"
+  },
+  "homepage": "https://github.com/cloudratha/active-scroll-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
