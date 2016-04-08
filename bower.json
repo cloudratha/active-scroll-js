@@ -1,7 +1,7 @@
 {
   "name": "active-scroll",
   "description": "jQuery Plugin for smooth scrolling with anchor highlighting",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "main": "dist/active-scroll.js",
   "authors": [
     "Gareth Cozens (Cuzzy)"

@@ -1,6 +1,6 @@
 {
   "name": "active-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "ActiveScroll.js",
   "description": "jQuery Plugin for smooth scrolling with anchor highlighting",
   "main": "dist/active-scroll.min.js",
