@@ -7,8 +7,8 @@ var original = './dist/active-scroll.js',
 
 gulp.task('compress', function() {
     return gulp.src(original)
-        .pipe(uglify())
         .pipe(rename('active-scroll.min.js'))
+        .pipe(uglify())
         .pipe(gulp.dest( output ));
 });
 

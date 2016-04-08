@@ -1,5 +1,4 @@
-ActiveScroll.js
-==============
+# ActiveScroll.js [![Build Status](https://travis-ci.org/cloudratha/active-scroll-js.svg?branch=master)](https://travis-ci.org/cloudratha/active-scroll-js)
 
 This jQuery plugin allows for Smooth Scrolling with Anchor Highlighting.
 
