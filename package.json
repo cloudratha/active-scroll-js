@@ -23,7 +23,7 @@
     "url": "https://github.com/cloudratha/active-scroll-js/issues"
   },
   "homepage": "https://github.com/cloudratha/active-scroll-js#readme",
-  "dependencies": {
+  "peerDependencies": {
     "jquery": ">= 1.4.4"
   },
   "devDependencies": {
