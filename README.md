@@ -16,6 +16,19 @@ $('nav').activescroll({
 });
 ```
 
+# Installation
+
+### NPM
+Make sure you have [node.js](https://nodejs.org/en/) installed. It comes bundled with [npm](https://www.npmjs.com/)
+```bash
+npm install active-scroll --save
+```
+
+### Bower
+Make sure you have [bower](http://bower.io/) installed.
+```bash
+bower install active-scroll --save
+```
 # Usage
 
 Make sure you have a **data attribute** that references the **id** of the element that the page will be scrolled to.
