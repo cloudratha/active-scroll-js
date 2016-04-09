@@ -84,7 +84,6 @@
                     {
                         //Highlight if page can't scroll to element
                         var current = $( window ).scrollTop() + settings.offset;
-                        console.log( current, sections[ id ] );
                         if ( current !== sections[ id ] )
                         {
                             items.removeClass( settings.active );
